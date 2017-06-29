@@ -2,13 +2,13 @@
   "name": "apollo",
   "main": "./lib/apollo",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "atom package for nek-ui and kmui",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "apollo:toggle"
   },
-  "repository": "https://github.com/atom/apollo",
+  "repository": "https://github.com/kaola-fed/apollo",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
