@@ -1,10 +1,9 @@
 {
   "name": "apollo",
   "main": "./lib/apollo",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "atom package for nek-ui and kmui",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "apollo:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
