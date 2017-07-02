@@ -1,0 +1,69 @@
+{
+	"KMToast/icon": {
+		"options": [ "success", "fail" ],
+		"description": "图标"
+	},
+	"KMToast/message": {
+		"description": "消息提示内容"
+	},
+
+	"KMAlert/on-confirm": {
+		"type": "method",
+		"description": "点击确认"
+	},
+
+	"KMConfirm/on-confirm": {
+		"type": "method",
+		"description": "点击确认"
+	},
+	"KMConfirm/on-cancel": {
+		"type": "method",
+		"description": "点击取消"
+	},
+
+	"KMButton/outline": {
+		"type": "boolean",
+		"description": "边框效果"
+	},
+	"KMButton/black": {
+		"type": "flag",
+		"description": "黑色主题"
+	},
+	"KMButton/square": {
+		"type": "boolean",
+		"description": "启用直角"
+	},
+	"KMButton/size": {
+		"options": [ "sm", "md", "lg" ],
+		"description": "尺寸"
+	},
+
+	"KMCheckbox/checked": {
+		"type": "boolean",
+		"description": "是否选中"
+	},
+
+	"KMFormItem/type": {
+		"options": [ "1", "2" ],
+		"description": "1单行，2双行"
+	},
+	"KMFormItem/is-link": {
+		"type": "boolean",
+		"description": "是否显示右侧箭头"
+	},
+
+	"KMInput/type": {
+		"options": [ "phonenumber" ],
+		"description": "输入框类型"
+	},
+
+	"KMSwitch/checked": {
+		"type": "boolean",
+		"description": "是否选中"
+	},
+
+	"KMPageTip/type": {
+		"options": [ "cart", "search", "position", "orders", "coupons", "bags", "broadcast", "book", "tip", "favorite", "wifi", "bookmark", "dilivery", "ring" ]
+	}
+
+}

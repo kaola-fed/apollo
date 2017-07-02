@@ -1,0 +1,106 @@
+{
+	"KMToast": {
+		"attributes": [ "icon", "message" ],
+		"defaults": [ "message" ],
+		"description": "消息提示"
+	},
+	"KMAlert": {
+		"attributes": [ "icon", "title", "confirmText", "on-confirm", "on-confirm" ],
+		"defaults": [ "confirmText", "on-confirm" ],
+		"description": "弹窗（确认）"
+	},
+	"KMConfirm": {
+		"attributes": [ "icon", "title", "confirmText", "cancelText", "on-confirm", "on-cancel" ],
+		"defaults": [ "confirmText", "cancelText", "on-confirm", "on-cancel" ],
+		"description": "弹窗（取消+确认）"
+	},
+	"KMMediaModal": {
+		"description": "图文弹窗",
+		"attributes": [ "on-close" ],
+		"defaults": [ "on-close" ]
+	},
+	"KMModal": {
+		"description": "规则弹窗",
+		"attributes": [ "on-close" ],
+		"defaults": [ "on-close" ]
+	},
+	"KMSkuSelect": {
+		"description": "sku选择",
+		"attributes": [ "goodsId", "url", "on-build-sku-data", "on-confirm" ],
+		"defaults": [ "goodsId", "url", "on-build-sku-data", "on-confirm" ]
+	},
+	"KMNavbar": {
+		"description": "导航栏/电梯",
+		"attributes": [ "source" ],
+		"defaults": [ "source" ]
+	},
+	"KMButton": {
+		"description": "按钮",
+		"attributes": [ "outline", "black", "square", "text", "disabled", "size", "link" ],
+		"defaults": [ "text" ]
+	},
+	"KMCheckbox": {
+		"description": "复选框",
+		"attributes": [ "checked", "on-change" ],
+		"defaults": [ "checked", "on-change" ]
+	},
+	"KMFormItem": {
+		"description": "列表项",
+		"attributes": [ "type", "label", "subLabel", "value", "is-link", "link", "on-click" ],
+		"attributes": [ "label", "value", "on-click" ]
+	},
+	"KMGotop": {
+		"description": "返回顶部",
+		"attributes": [ "on-show", "on-hide" ]
+	},
+	"KMInput": {
+		"description": "输入框",
+		"attributes": [ "type", "value", "maxlength", "placeholder", "label", "multiple" ],
+		"defaults": [ "value", "placeholder" ]
+	},
+	"KMNumberInput": {
+		"description": "数字输入框",
+		"attributes": [ "min", "max", "on-change" ],
+		"defaults": [ "on-change" ]
+	},
+	"KMSwitch": {
+		"description": "开关",
+		"attributes": [ "checked", "on-change" ],
+		"defaults": [ "checked", "on-change" ]
+	},
+	"KMTextarea": {
+		"description": "文本输入框",
+		"attributes": [ "placeholder", "value", "label", "maxlength", "label", "multiple" ],
+		"defaults": [ "placeholder", "value" ]
+	},
+	"KMGoodsItem": {
+		"description": "商品",
+		"attributes": [ "goods", "imageWidth", "address", "traceParams", "daProductUrl", "showCart", "on-cart-click" ],
+		"defaults": [ "goods" ]
+	},
+	"KMGoodsItemApp": {
+		"description": "App商品",
+		"attributes": [ "goods", "imageWidth", "showAppDiscount", "showAttribute", "traceParams", "daProductUrl" ],
+		"defaults": [ "goods" ]
+	},
+	"KMGoodsList": {
+		"description": "商品列表",
+		"attributes": [ "list", "imageWidth", "address", "traceParams" ],
+		"defaults": [ "list" ]
+	},
+	"KMGoodsListApp": {
+		"description": "App商品列表",
+		"attributes": [ "list", "imageWidth", "showAppDiscount", "showAttribute", "traceParams" ],
+		"defaults": [ "list" ]
+	},
+	"KMPageTip": {
+		"description": "页面级提示",
+		"attributes": [ "type", "title", "subTitle", "action" ],
+		"defaults": [ "type", "title", "subTitle", "action" ]
+	},
+	"KMBulletScreen": {
+		"description": "弹幕",
+		"attributes": [ "goodsId", "url", "on-click", "on-build-bullet-content" ],
+		"defaults": [ "goodsId", "url", "on-build-bullet-content" ]
+	}
+}

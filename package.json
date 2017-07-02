@@ -4,8 +4,12 @@
   "version": "0.1.0",
   "description": "atom package for nek-ui and kmui",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "apollo:toggle"
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provide"
+      }
+    }
   },
   "repository": "https://github.com/kaola-fed/apollo",
   "license": "MIT",
